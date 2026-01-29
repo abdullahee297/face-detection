@@ -18,7 +18,6 @@ options = FaceLandmarkerOptions(
 
 detector = FaceLandmarker.create_from_options(options)
 
-
 cap = cv2.VideoCapture(0)
 
 
